@@ -1,0 +1,13 @@
+How to make Color-Picker in React Js
+
+Step 01: Create React Application this command:
+	create-react-app my-react-app----project name
+Step 02:  Install Bootstrap Package
+	npm install bootstrap --save
+then Import bootstrap.min.css file in src/App.js file:
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+Step 03: Install Color Picker Package
+	npm install react-color --save
+Step 4 : Create Color Picker Component...this code include to project folder
+Step 05: Import ColorPickerComponent.js file in src/App.js file:

@@ -1,23 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import ColorPickerComponent from './ColorPickerComponent'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2 className='text-center bg-dark text-white p-2'>How to create color picker in React Js</h2>
+         <ColorPickerComponent /> 
     </div>
   );
 }
